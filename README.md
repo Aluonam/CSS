@@ -74,7 +74,7 @@ selector::pseudo-elemento { propiedad: valor; }
 <!DOCTYPE html>
   <html>
     <head>
-      <link rel="stylesheet" src="style.css">
+      <link rel="stylesheet" href="style.css">
     </head>
     <body>
     
