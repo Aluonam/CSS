@@ -1,0 +1,45 @@
+/* Aplica a todos */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+}
+/* Aplica a la clase llamada divSup */
+.divSup{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgba(0, 217, 255, 0.638);
+}
+
+/* Aplica al elemento cuyo id es divInf */
+#divInf{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgba(212, 255, 0, 0.647);
+}
+
+/* Aplica a los h2 que vayan inmeditamente destrás de h1 */
+h1 + h2{
+    color: rgb(194, 161, 112);
+} 
+
+/* Aplica a todos los elementos li que esten dentro del elemento ul */
+ul > li {
+    color: brown;
+}
+
+/* Aplica a la pseudoclase del elemento cuya clase es element1 */
+/* hover: al pasar por encima */
+.elemnt1:hover{
+    color: blue;
+}
+
+/* aplica a la pseudoclase link que coloreará el fondo del texto del link que pertenece al elemento a */
+a:link{
+   background-color: blue;
+}
+
+
