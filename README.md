@@ -67,3 +67,16 @@ selector::pseudo-elemento { propiedad: valor; }
 ::marker Experimental
 ::spelling-error Experimental
 ::grammar-error (en-US) 
+
+# Vincular CSS 
+```css
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" src="style.css">
+    </head>
+    <body>
+    
+    </body>
+</html>
+```
