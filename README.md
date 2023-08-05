@@ -21,9 +21,12 @@ selector:pseudoclase { propiedad: valor; }
 + :hover (activa al pasar por encima)
 + :active (activa al pulsar sobre el elemento)
 + :focus (actúa cuando estás pulsando en el elemento)
-+ :checked (puede que haya que especificar dentro del check o imput que es lo que se va a cambiar. Por ejemplo: <code>input:checked + label {
++ :checked (puede que haya que especificar dentro del check o imput que es lo que se va a cambiar.
++ Por ejemplo:
+ <code> input:checked + label {
     color: red;
-  }</code )
+  }
+</code )
 **Otros:**
 + :dir()
 + :disabled
