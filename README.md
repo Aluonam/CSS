@@ -14,13 +14,17 @@
 + Si directamente se deja un espacio en lugar de un símbolo aplica a todos los elementos que estén dentro.
 
 ## Pseudoclases: 
-Como actuará el elemento cuando se cumpla la condición que pones (visitado, pasar por encima)
+Como actuará el elemento cuando se cumpla la condición que pones (visitado, pasar por encima). 
+Acciones al usar los elementos.
 selector:pseudoclase { propiedad: valor; }
 + :visited 
-+ :hover
-+ :active
-+ :checked
-+ :default
++ :hover (activa al pasar por encima)
++ :active (activa al pulsar sobre el elemento)
++ :focus (actúa cuando estás pulsando en el elemento)
++ :checked (puede que haya que especificar dentro del check o imput que es lo que se va a cambiar. Por ejemplo: <code>input:checked + label {
+    color: red;
+  }</code )
+**Otros:**
 + :dir()
 + :disabled
 + :empty
@@ -40,11 +44,9 @@ selector:pseudoclase { propiedad: valor; }
 + :scope (en-US)
 + :target
 + :valid
-+ :first-child
++ :first-child  (actúa sobre el primer hijo)
 + :first-of-type
 + :fullscreen
-+ :focus
-+ :hover
 + :indeterminate
 + :in-range
 + :invalid
@@ -52,7 +54,6 @@ selector:pseudoclase { propiedad: valor; }
 + :last-child
 + :last-of-type
 + :left
-+ :link
 + :not()
 + :nth-child()
 + :nth-last-child()
