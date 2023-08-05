@@ -21,45 +21,16 @@ selector:pseudoclase { propiedad: valor; }
 + :hover (activa al pasar por encima)
 + :active (activa al pulsar sobre el elemento)
 + :focus (actúa cuando estás pulsando en el elemento)
-+ :checked (puede que haya que especificar dentro del check o imput que es lo que se va a cambiar.
++ :checked (puede que haya que especificar dentro del check o imput que es lo que se va a cambiar).
 + Por ejemplo:
- <code> input:checked + label {
+ <code>
+input:checked + label {
     color: red;
   }
-</code )
+</code>
+
 **Otros:**
-+ :dir()
-+ :disabled
-+ :empty
-+ :enabled
-+ :first
-+ :nth-last-of-type()
-+ :nth-of-type()
-+ :only-child
-+ :only-of-type
-+ :optional
-+ :out-of-range
-+ :read-only
-+ :read-write
-+ :required
-+ :right
-+ :root
-+ :scope (en-US)
-+ :target
-+ :valid
-+ :first-child  (actúa sobre el primer hijo)
-+ :first-of-type
-+ :fullscreen
-+ :indeterminate
-+ :in-range
-+ :invalid
-+ :lang()
-+ :last-child
-+ :last-of-type
-+ :left
-+ :not()
-+ :nth-child()
-+ :nth-last-child()
+:dir() :disabled :empty :enabled :first :nth-last-of-type() :nth-of-type() :only-child :only-of-type :optional :out-of-range :read-only :read-write :required :right :root :scope (en-US) :target :valid :first-child  (actúa sobre el primer hijo) :first-of-type :fullscreen :indeterminate :in-range :invalid :lang() :last-child :last-of-type :left :not()  :nth-child()   :nth-last-child()
   
 ## Pseudoelementos:
 Dentro del elemento haz x cosa.
