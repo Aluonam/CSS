@@ -1,0 +1,20 @@
+.ejemploPadre1{
+    width: 300px;
+    border: 1px solid black;
+}
+
+.ejemploPadre1::first-line{
+    color: red;
+}
+
+.ejemploPadre1::first-letter{
+    color: green;
+}
+
+.ejemploPadre1::after{
+    content: "VOY DESPUES DEL ELEMENTO";
+}
+
+.ejemploPadre1::before{
+    content: "VOY ANTES DEL ELEMENTO";
+}

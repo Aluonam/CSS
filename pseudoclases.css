@@ -1,0 +1,41 @@
+/* Aplica a la pseudoclase del elemento cuya clase es element1 */
+/* hover: al pasar por encima */
+.elemnt1:hover{
+    color: blue;
+}
+
+/* aplica a la pseudoclase link que coloreará el fondo del texto del link que pertenece al elemento a */
+a:link{
+   background-color: rgba(0, 0, 255, 0.445);
+}
+
+.ejemploPadre1{
+    width: 80vw;
+    border: 1px solid black;
+}
+
+/* Actúa sobre el primer hijo */
+.ejemploPadre1 p:first-child{
+    background-color: aquamarine;
+}
+
+/* Activa color al clicar */
+.elemento3:active {
+    color: red;
+  }
+  
+/* Modifica el texto del check */
+  input:checked + label {
+    color: red;
+  }
+  
+/* Modifica la caja del checkbox */
+  input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px hotpink;
+  }
+
+/* Modifica al tocar el elemento */
+  .blue-input:focus {
+    background: yellow;
+    color: blue;
+  }
