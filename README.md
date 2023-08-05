@@ -14,6 +14,7 @@
 + Si directamente se deja un espacio en lugar de un símbolo aplica a todos los elementos que estén dentro.
 
 ## Pseudoclases: 
+Como actuará el elemento cuando se cumpla la condición que pones (visitado, pasar por encima)
 selector:pseudoclase { propiedad: valor; }
 + :visited 
 + :hover
@@ -57,17 +58,16 @@ selector:pseudoclase { propiedad: valor; }
 + :nth-last-child()
   
 ## Pseudoelementos:
+Dentro del elemento haz x cosa.
 selector::pseudo-elemento { propiedad: valor; }
-+ ::after
++ ::after (añade lo que especifiques después del elemento)
 + ::before
 + ::first-letter
-+ ::first-line
-+ ::selection
-+ ::backdrop
-+ ::placeholder Experimental
-+ ::marker Experimental
-+ ::spelling-error Experimental
-+ ::grammar-error (en-US) 
++ ::first-line (modifica la primera línea)
+Otros: 
++ ::selection (tiene una mayor configuración)
++ Hay otros experimentales:
+ [Documentación pseudoelementos CSS](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements )
 
 # Vincular CSS 
 ```css
