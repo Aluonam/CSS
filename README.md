@@ -23,7 +23,7 @@ selector:pseudoclase { propiedad: valor; }
 + :focus (actúa cuando estás pulsando en el elemento)
 + :checked (puede que haya que especificar dentro del check o imput que es lo que se va a cambiar).
 + Por ejemplo:
- <code>
+<code>
 input:checked + label {
     color: red;
   }
@@ -36,8 +36,8 @@ input:checked + label {
 Dentro del elemento haz x cosa.
 selector::pseudo-elemento { propiedad: valor; }
 + ::after (añade lo que especifiques después del elemento)
-+ ::before
-+ ::first-letter
++ ::before (añade lo que especifiques antes del elemento)
++ ::first-letter (modifica la primera letra)
 + ::first-line (modifica la primera línea)
 Otros: 
 + ::selection (tiene una mayor configuración)
