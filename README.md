@@ -44,6 +44,33 @@ Otros:
 + Hay otros experimentales:
  [Documentación pseudoelementos CSS](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements )
 
+## ANIMACIONES:
+```css
+elemento {
+    /* Tiempo que dura la animación */
+    animation-duration: 3s;                     
+    /* animation-name: nombreDeLaAnimacion;     */
+    animation-name: nombreEjemplo2; /* el nombre de la animación tiene que ser igual que en la linea donde se especifique la animación*/
+    /* Especifica cuantas veces se repite la animación (número de veces o infinito) */
+    animation-iteration-count: 2; 
+    /* Cambiar dirección de la animación: (alternate: una vez hacia 100 y luego de vuelta a 0) */
+    animation-direction: alternate;
+  }
+ @keyframes nombreDeLaAnimacion {
+    /* Posición en la que inicia */
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+   /* Posición en la que acaba */
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+```
+
+
 # Vincular CSS 
 ```css
 <!DOCTYPE html>
